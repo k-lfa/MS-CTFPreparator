@@ -16,8 +16,10 @@
 Open a powershell terminal **In administrator**
 
 ```
-Start-Process powershell.exe -ExecutionPolicy Bypass '\Install.ps1'
+Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File .\Install.ps1"
 ```
+
+"-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit
 
 ###### TODO
 
