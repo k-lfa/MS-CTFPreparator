@@ -17,7 +17,7 @@ Open a powershell terminal **In administrator**
 
 ```
 Start-Process powershell.exe -ExecutionPolicy Bypass '\Install.ps1'
-``
+```
 
 ###### TODO
 
