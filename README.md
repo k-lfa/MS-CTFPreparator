@@ -4,12 +4,12 @@
 
 ## What he's doing ?
 
-1- Update OS
-2- Update Defender signatures
-3- Disable Netdiscover and Share/printer
-4- Disable LLMNR
-5- Disable Netbios on all interfaces
-6- Disable SMBv1
+1. Update OS
+2. Update Defender signatures
+3. Disable Netdiscover and Share/printer
+4. Disable LLMNR
+5. Disable Netbios on all interfaces
+5. Disable SMBv1
 
 ## What execute it ?
 
