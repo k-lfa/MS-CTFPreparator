@@ -11,15 +11,13 @@
 5. Disable Netbios on all interfaces
 5. Disable SMBv1
 
-## What execute it ?
+## How execute it ?
 
 Open a powershell terminal **In administrator**
 
 ```
 Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File .\Install.ps1"
 ```
-
-"-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit
 
 ###### TODO
 
